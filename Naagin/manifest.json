@@ -1,0 +1,28 @@
+{
+   "browser_action": {
+      "default_icon": "img/128.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt+862BIZXWuEibPbOMR4rYAFOE++lHXM1/Fbudx/wnWXuDGXdbpVEj0qwVIHw8dVzOl/xQ9UCKxbqMjow4uX3uX9nTndDkV2OFeG/GPWq2xTA3YP3S8wfLwnK0YGLv1sD6eprS+sz+HXmloOp4EzxvQNe/acJAHC74BxWIPo4cfJyFDfJGB4IB5Il5OZJS95S0sB+7WfYEl2mhgpeywpJJYp7iWDcJVv6VlWgKPUXjvhOY3G9gy/9J7CQearmByFxM4r8siTOYBlTs5nuDC+2TaVf5iIvcvsisKrSPl8GpOVL7/Xheo6VxhiezUDG/wQCCcUz8Xq6YW7rQe6z72eowIDAQAB",
+   "manifest_version": 2,
+   "name": "Naagin",
+   "permissions": [ "tabs", "activeTab", "storage", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "short_name": "Naagin",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.1.19.1"
+}

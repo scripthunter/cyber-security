@@ -1,0 +1,20 @@
+{
+   "desc": {
+      "message": "Play original Snake game in one click. Game opens in browser popup window"
+   },
+   "name": {
+      "message": "Snake original game in popup"
+   },
+   "shortname": {
+      "message": "Snake games"
+   },
+   "snake": {
+      "message": "SNAKE"
+   },
+   "start": {
+      "message": "press space to start"
+   },
+   "title": {
+      "message": "Play Snake game"
+   }
+}
